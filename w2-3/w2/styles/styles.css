@@ -1,33 +1,48 @@
-body {
-    text-align: center;
-}
 
-nav {
+nav, footer {
     background-color: steelblue;
     padding: 10px;
+    text-align: center;
 }
-
+/*TEXT ALING CENTER WHEN THERE'S SPACE TO CENTER*/
+/*if elements are not in block displayed, we need to put display:block and then margin 0 auto, and if they are in block, we just write text align to center*/
 a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
 }
 
 h1 {
     color: steelblue;
+    text-align: center;
 }
 
 img {
-    width: 800px;
+    width: 80%;
     border: 4px solid steelblue;
+    margin: 0 auto;
+    display: block;
 }
 
 p {
     padding: 10px;
+    width: 80%;
 }
-
-footer {
-    background-color: steelblue;
-    color: white;
+/* PSEUDO CODE REQUIRES A INTERACTIONS AS HOVER FROM THE USER */
+footer p{
+    font-size: 20px;
+    margin: 20px auto;
 }
 
 .main-par {

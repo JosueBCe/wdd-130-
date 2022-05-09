@@ -1,0 +1,38 @@
+/*
+you can use to define the measurement with :(relative units) %,em || (absolute units) px,em, rem
+
+others units are:
+vw(viewport width)
+
+vh(viewport height)
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+width DISPLAY.
+block elements: the start new lines 
+inline: use the space as much as possible
+
+inline-block: do both things. 
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+To center lines there are 2 ways: 
+    text-align: center;
+    margin: 0 auto; this needs to define width first
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+CSS Selectors_ 
+
+RANKING MORE SPECIFIC
+by ID #
+by pseudoclasses
+by Element (p, h2,etc)
+By div with .divname
+
+
+
+
+order: go building in the same order that HTML
+
+
+
+*/

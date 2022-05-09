@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: #ff9eae;
+}
+
+
+
+nav {
+    color: white;
+    display: block;
+    margin: 50px auto;
+}
+
+nav h1:hover {
+    color: black;
+}
+
+main {
+    text-align: center ;
+    display: block;
+}
+
+
+main img {
+    width: 30%;
+}
+
+section h1 {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    
+}
