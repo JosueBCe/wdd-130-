@@ -68,6 +68,10 @@ main section {
 .msg {
     background-color: #219d21;
     color: white;
+}
+
+
+.msg a{
     text-decoration: none;
 }
 
