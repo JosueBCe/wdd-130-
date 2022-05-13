@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Lora:ital@1&display=swap');
 
 
 body {
     background-color:white ;
+    font-family: Cormorant, lora;
+    margin: 0%;
+    font-size: 22px;
+    padding: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+h2 {
+    margin: 0;
 }
 
 #content {
@@ -14,13 +27,20 @@ header {
 }
 
 header img{
-    width: 7%;
+    width: 6%;
+}
+
+.home-title {
+    font-size: 2em;
+    font-family: lora, Cormorant;
+    margin-top: 10px;
 }
 
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 
 }
 
@@ -34,10 +54,23 @@ nav a:hover {
     color: #212682;
 }
 
+.home-grid .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: solid #ff901a 10px;
+    
+}
+
 .book, .join {
     background-color:#ff901a;
     color: #207620;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
     
 }
 
@@ -54,10 +87,15 @@ main section {
     text-align:center ;
 }
 
+main section img {
+    box-sizing: border-box;
+}
 
 
-.rivers-card .icon {
+.icon {
     width: 80px;
+    padding-top: 10px;
+    
 }
 
 #background {
@@ -68,16 +106,26 @@ main section {
 .msg {
     background-color: #219d21;
     color: white;
+    font-family: lora, Cormorant;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: -5px;
 }
-
 
 .msg a{
     text-decoration: none;
 }
 
+.msg p {
+    font-size: 1em;
+    font-family: cormorant, lora;
+    padding-bottom: 15px;
+}
+
 footer {
     background-color: #ff901a;
-    
+    padding: 25px 50px;
+    margin-top: 200px;   
 }
 
 footer a {
@@ -88,5 +136,9 @@ footer a:hover {
     background-color: white;
     color: #212682;
     text-decoration:none;
+}
+
+footer.social img {
+    padding-top: 15px;
 }
 

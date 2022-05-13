@@ -1,0 +1,23 @@
+body {
+    margin: 0%;
+}
+.image img{
+    
+    width: 100%;
+}
+
+.images {
+    background: rgb(50, 55, 55);
+    margin-top: -1rem;
+}
+
+.images img {
+    display: inline;
+    width: 15%;
+    border-radius: 200px;
+    border: solid 10px rgb(39, 36, 36);
+    margin-left: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    
+}

@@ -1,8 +1,19 @@
+body{
+    margin: 0%;
+}
 
-nav, footer {
+
+footer {
     background-color: steelblue;
     padding: 10px;
     text-align: center;
+    color: white;
+}
+nav {
+    padding: 25px;
+    background-color: steelblue;
+    text-align: center;
+    color: white;
 }
 /*TEXT ALING CENTER WHEN THERE'S SPACE TO CENTER*/
 /*if elements are not in block displayed, we need to put display:block and then margin 0 auto, and if they are in block, we just write text align to center*/
@@ -10,6 +21,7 @@ a {
     color: white;
     margin: 40px;
     font-size: 1.5em;
+    padding: 25px;
 }
 
 a:hover {
@@ -21,11 +33,13 @@ main p {
     width: 80%;
     margin: 50px auto;
     text-align: center;
+    margin: 50px auto;
 }
 
 h1 {
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
 }
 
 img {
@@ -43,6 +57,7 @@ p {
 footer p{
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 
 .main-par {
