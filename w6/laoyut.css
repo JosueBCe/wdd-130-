@@ -1,0 +1,43 @@
+/*
+Layout it's to organize and display in the best way possible. 
+
+GRID :is the value of the display variable. Grid are rods and columns at the same time, to organize the elements. 
+
+IMPLICIT When the browser automatically use the space to organize the elements.
+
+EXPLICIT: We set how organise the Grid. 
+
+when using : grid-template-columns: value... n (how many values we set, it will be the number of columns)
+                                    (if the value is auto, the column will extend until it filled the space
+(FR is fraction): if we use valueFR, FR will take the necessary space for each of the elements that I add. 
+
+grid: 
+__________________________________
+1    |2  |  3  |  4  |  5 |   6  |
+_____|___|_____|_____|____|______|---> grid cell
+2    |   |     |     |    |      |
+_____|___|_____|_____|____|______|    
+3    |   |     |     |    |      |
+_____|___|_____|_____|____|______|--> grid area (some cells togther)
+4    |   |     |     |    |      |
+_____|___|_____|_____|____|______|
+5    |   |     |     |    |      |
+_____|___|_____|_____|____|______|                                   
+
+using that structure: 
+
+div {
+    grid-column-start: 1(number where you indicate to start the counting)
+    grid-column-end: 3(number where you indicate to end the counting)
+    the same with row 
+    grid-row-start: 1
+    grid-row-end: 2
+    the result is =
+        _______________
+        1    |2  |  3  |
+        _____|___|_____|
+        2    |   |     |    
+        _____|___|_____|
+
+
+*/
