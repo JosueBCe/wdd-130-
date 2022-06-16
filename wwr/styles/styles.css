@@ -282,4 +282,88 @@ footer.social img {
         margin-top: 25px;
     }
 }
-       
+
+/* ======================== RIVERS PAGE =============================================== */
+.river-main {
+    margin: 0rem 3rem -10rem 3rem
+}
+
+.hero-river {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.hero-river img {
+    grid-column: 1/7;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    
+
+}
+
+
+hr {
+    height: 2rem;
+    background: #ff901a;
+}
+
+.hr-top {
+    height: 4rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.subtitle-left {
+    margin-left: 4rem;
+}
+
+
+.subtitle-right {
+    float: right;
+    margin-right: 2rem;
+    
+   
+}
+
+
+.river-1 {
+    display:flex;
+    align-items: flex-end;
+}
+
+.river-1 img {
+    width: 33%;
+    margin: 3rem;
+    
+    
+}
+     
+.river-2 {
+    display:flex;
+    align-items:center;
+    margin-top: 8rem;
+    
+}
+
+.river-2 img {
+    width: 28%;
+    margin: 3rem;
+    margin-top: -1rem;
+}
+
+.river-3 {
+    display:flex;
+    align-items:center;
+    
+}
+
+.river-3 img {
+    width: 35%;
+    margin: 3rem;
+    
+}
