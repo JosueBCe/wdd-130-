@@ -284,6 +284,8 @@ footer.social img {
 }
 
 /* ======================== RIVERS PAGE =============================================== */
+
+
 .river-main {
     margin: 0rem 3rem -10rem 3rem
 }
@@ -299,9 +301,14 @@ footer.social img {
     width: 100%;
     margin-top: 3rem;
     margin-bottom: 5rem;
+}
+
+.hero-river img:hover {
+    opacity: 90%;
+    transform: rotate(2deg);
+}
     
 
-}
 
 
 hr {
@@ -320,13 +327,35 @@ h1 {
 
 .subtitle-left {
     margin-left: 4rem;
+    display: inline-flex;
+   
+}
+
+.icon-river img {
+    width: 10%;
+    margin-left: 3rem;
+    float:right;
+    
+}
+
+.icon-river-right img {
+    width: 10%;
+    float:left;
+
+    
+}
+
+.subtitle-left h3 {
+    color:#219d21;
+
 }
 
 
 .subtitle-right {
     float: right;
     margin-right: 2rem;
-    
+    color: #2160d5;
+    display: inline-flex;
    
 }
 
@@ -339,8 +368,13 @@ h1 {
 .river-1 img {
     width: 33%;
     margin: 3rem;
+    border-radius: 2rem;
+    border: solid orange 0.4rem;
     
-    
+}
+
+.river-1 img:hover {
+    width: 38%;
 }
      
 .river-2 {
@@ -354,6 +388,12 @@ h1 {
     width: 28%;
     margin: 3rem;
     margin-top: -1rem;
+    border-radius: 2rem;
+    border: solid orange 0.4rem;
+}
+
+.river-2 img:hover {
+    width: 38%;
 }
 
 .river-3 {
@@ -365,5 +405,11 @@ h1 {
 .river-3 img {
     width: 35%;
     margin: 3rem;
+    border-radius: 2rem;
+    border: solid orange 0.4rem;
     
+}
+
+.river-3 img:hover {
+    width: 38%;
 }
