@@ -370,11 +370,14 @@ h1 {
     margin: 3rem;
     border-radius: 2rem;
     border: solid orange 0.4rem;
+
     
 }
 
 .river-1 img:hover {
     width: 38%;
+    transform: skewY(10deg);
+
 }
      
 .river-2 {
@@ -412,4 +415,5 @@ h1 {
 
 .river-3 img:hover {
     width: 38%;
+    transform: skewX(10deg);
 }
