@@ -1,0 +1,264 @@
+body {
+    font-size: 22px;
+    margin: -0.4rem;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 15px;
+}
+
+#logo_link img {
+    border-radius: 0.7rem;
+}
+
+header {
+    background-color: #6C757D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #212529;
+    background-color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 2rem;
+    border-radius: 2rem;
+    
+}
+
+nav a:hover {
+    background-color:#212529;
+    color:#6C757D;
+}
+
+.hero-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* margin-top: -100px; */
+}
+
+.hero-home img {
+    width: 90%;
+    height: 450px;
+    grid-column: 1/5;
+    grid-row: 1/5;
+    z-index: -1;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.hero-home p {
+    grid-column: 3/3;
+    grid-row: 1/4;
+    font-size: 15px;
+    background: #CED4DA;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 4rem 7rem 5rem 7rem;
+    border-radius: 1rem;
+}
+
+main {
+    margin: -2rem 2rem 1rem 2rem;
+}
+    
+.section-1 {
+    display:flex;
+    align-items:center;
+    margin-top: 8rem;
+    
+}
+
+.section-1 img {
+    width: 38%;
+    margin: 3rem;
+    margin-top: -1rem;
+    border-radius: 2rem;
+    border: solid #212529 .4rem;
+}
+
+.section-1 img:hover {
+    width: 40%;
+}
+
+.section-2 {
+    display:flex;
+    align-items:center;
+    
+}
+
+.section-2 img {
+    width: 38%;
+    margin: 3rem;
+    border-radius: 2rem;
+    border: solid #212529 0.4rem;
+    
+}
+
+.section-2 img:hover {
+    width: 33%;
+}
+
+
+.section-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+
+    margin-top: 5rem;
+}
+
+.section-3 img {
+    width: 100%;
+    height: 450px;
+    grid-column: 1/3;
+    z-index: -1;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.platforms {
+    display:flexbox;
+    margin: 1rem;
+    padding: 3rem;
+    background: #6C757D;
+    border-radius: 1rem;
+}
+
+.platforms img {
+    background: #CED4DA;
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    width: 20%;
+    height: 23%;
+}
+
+
+.social img {
+    width: 5%;
+}
+
+.logo {
+    width: 50%;
+}
+
+
+
+footer {
+    background-color: #6C757D;
+    padding: 5px 80px;
+    margin-top: 150px;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+footer a {
+    text-decoration: none;
+    color: #212529;
+    font-size: 25px;
+
+}
+
+footer a:hover {
+    background-color: white;
+    text-decoration:none;
+   
+}
+
+.social {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.social h5 {
+    float: right;
+    margin-right: 10rem;
+}
+
+.social img {
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.subpage-link {
+    display: flex;
+    
+}
+
+.subpage-link h5 {
+    padding: 0.5rem;
+    
+}
+
+/* ===================================== PLANS ============================================ */
+
+.main-plan {
+    margin-top: 5rem;
+}
+
+.plan-1, .plan-2, .plan-3 {
+    display:flex;
+    align-items:center;
+    
+}
+
+.plan-1 img, .plan-2 img, .plan-3  img {
+    width: 38%;
+    margin: 3rem;
+    border-radius: 2rem;
+    border: solid #212529 0.4rem;
+    
+}
+
+.plan-1 img:hover, .plan-2 img:hover, .plan-3  img:hover {
+    width: 33%;
+}
+
+.info-plan {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 1.7rem;
+    /* margin-top: -100px; */
+}
+
+.info-plan img {
+    width: 100%;
+    height: 450px;
+    grid-column: 1/4;
+    grid-row: 1/5;
+    z-index: -1;
+    width: 100%;
+    z-index: -1;
+    border-radius: 2rem;
+    
+}
+
+.info-plan p {
+    grid-column: 3/5;
+    grid-row: 1/4;
+    font-size: 15px;
+    background: #CED4DA;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 1rem 5rem 8rem 7rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Investment</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img src="./images/cib_logo.png" alt="Company Logo" class="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="plans.html">Plans</a>
+                <a href="learn_more.html">Learn More</a>
+            </nav>
+        </header>
+        <main class="contact-main">
+
+        </main>
+        <footer>
+            
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="./images/whatsapp.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+                <h5>Crypto Investments & Josué Benjamín Centurión</h5>
+            </div>
+            <div class="subpage-link">
+                <h5><a href="index.html">Home</a></h5>
+                <h5><a href="plans.html">Plans</a></h5>
+                <h5><a href="learn_more.html">Learn More</a></h5>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const feedbackElement = document.getElementById("feedback");
+        const formElement = document.forms[0];
+
+        formElement.addEventListener("submit", function(e) {
+            e.preventDefault();
+        
+        feedbackElement.innerHTML = "Hello" + formElement.user_name.value + "! Thank you for your message. We will get back with you as soon as possible!";
+        
+        feedbackElement.style.display = "block";
+
+        document.body.classList.toggle("moveDown"); 
+    });
+    </script>
+
+</body>
+
+</html>
