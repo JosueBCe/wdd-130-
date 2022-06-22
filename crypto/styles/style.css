@@ -161,7 +161,7 @@ main {
 footer {
     background-color: #6C757D;
     padding: 5px 80px;
-    margin-top: 150px;   
+    margin-top: 115px;   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -214,6 +214,13 @@ footer a:hover {
     margin-top: 5rem;
 }
 
+.main-plan p {
+    text-align: center;
+    background: #6C757D;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
 .plan-1, .plan-2, .plan-3 {
     display:flex;
     align-items:center;
@@ -235,7 +242,7 @@ footer a:hover {
 .info-plan {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     margin: 1.7rem;
     /* margin-top: -100px; */
 }
@@ -244,7 +251,7 @@ footer a:hover {
     width: 100%;
     height: 450px;
     grid-column: 1/4;
-    grid-row: 1/5;
+    grid-row: 1/3;
     z-index: -1;
     width: 100%;
     z-index: -1;
@@ -261,4 +268,86 @@ footer a:hover {
     padding: 1rem;
     margin: 1rem 5rem 8rem 7rem;
     border-radius: 1rem;
+}
+
+
+
+/* ======================================================= LEARN MORE ============================================= */
+
+.learn-left {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 5rem 5rem 1.7rem 1.7rem;
+    /* margin-top: -100px; */
+}
+
+.learn-left img {
+    width: 100%;
+    height: 450px;
+    grid-column: 2/5;
+    grid-row: 1/4;
+    z-index: -1;
+    width: 100%;
+    z-index: -1;
+    border-radius: 2rem;
+    
+}
+
+.learn-left p {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    font-size: 15px;
+    background: #CED4DA;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 10rem 5rem 8rem 7rem;
+    border-radius: 1rem;
+}
+
+
+.learn-right {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 1.7rem;
+    /* margin-top: -100px; */
+}
+
+.learn-right img {
+    width: 100%;
+    height: 450px;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    width: 100%;
+    z-index: -1;
+    border-radius: 2rem;
+    
+}
+
+.learn-right p {
+    grid-column: 3/5;
+    grid-row: 1/4;
+    font-size: 15px;
+    background: #CED4DA;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 10rem 5rem 8rem 7rem;
+    border-radius: 1rem;
+}
+
+.learn-p {
+    background: #212529;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+   
+}
+
+.learn-p:hover {
+    background:white ;
+    color: #212529;
+    border:solid #212529 2px;
+
 }
