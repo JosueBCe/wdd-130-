@@ -120,6 +120,13 @@ main {
     margin-top: 5rem;
 }
 
+.section-3 h3 {
+    text-align: center;
+    color: gray;
+    background: yellow;
+    border-radius: 0.5rem;
+}
+
 .section-3 img {
     width: 100%;
     height: 450px;
@@ -130,7 +137,7 @@ main {
 }
 
 .platforms {
-    display:flexbox;
+    display: flexbox;
     margin: 1rem;
     padding: 3rem;
     background: #6C757D;
@@ -176,9 +183,16 @@ footer a {
 }
 
 footer a:hover {
-    background-color: white;
+    background-color:#CED4DA;
+    border-radius: 0.5rem;
+    padding: 1.7rem 0.01rem 0rem 0.01rem;
     text-decoration:none;
    
+}
+
+footer a:hover:last-child {
+    background: white;
+    padding: 0rem 0.01rem 0rem 0.01rem;
 }
 
 .social {
