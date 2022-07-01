@@ -144,7 +144,7 @@ main {
 }
 
 .platforms {
-    display: flexbox;
+    display: flex;
     margin: 1rem;
     padding: 3rem;
     background: #212529;
