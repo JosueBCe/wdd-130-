@@ -144,7 +144,7 @@ main {
 }
 
 .platforms {
-    display: flex;
+    display: flexbox;
     margin: 1rem;
     padding: 3rem;
     background: #212529;
@@ -212,6 +212,7 @@ footer a:hover:last-child {
 .social h5 {
     float: right;
     margin-right: 10rem;
+    
 }
 
 .social img {
