@@ -13,11 +13,12 @@
 <body>
     <div id="content">
         <header>
-            <span onclick="openNav() id="logo_link" href="index.html">
-                <img  src="./images/cib_logo.png" alt="Company Logo" class="logo">
-                <!-- <span onclick="openNav()">open</span> -->
-            </span>
+            <a id="logo_link" href="index.html">
+                <img src="./images/cib_logo.png" alt="Company Logo" class="logo">
+                <span onclick="openNav()">open</span>
+            </a>
             <nav>
+                
                 <a href="index.html">Home</a>
                 <a href="plans.html">Plans</a>
                 <a href="learn_more.html">Learn More</a>
@@ -118,14 +119,19 @@
             </div>
         </footer>
         <script>
-        function openNav() {
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+            function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
-          }
-          
-          /* Set the width of the side navigation to 0 */
-          function closeNav() {
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+
+            /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+            function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
-          }
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+            }
         </script>
     </div>
 
