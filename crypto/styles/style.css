@@ -394,6 +394,8 @@ footer a:hover:last-child {
 }
 
 
+
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -454,3 +456,4 @@ footer a:hover:last-child {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
