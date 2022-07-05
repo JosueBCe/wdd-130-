@@ -50,6 +50,8 @@ nav span {
 }
 
 
+
+
 nav span:hover {
     background: #212529;
     align-self: center;
@@ -141,7 +143,6 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-
     margin-top: 5rem;
 }
 
@@ -451,8 +452,244 @@ footer a:hover:last-child {
   
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
 
+}
+
+/* ====================== RESPONSIVENESS ======================================== */
+
+
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES)===================== */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+
+/* ======================== SMALL QUERIES (SMALL DEVICES)===================== */
+
+@media screen and (max-width: 600px) {
+        
+   /*  #logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+        margin-left: 15px;
+    } */
+   
+    #logo_link img {
+        border-radius: 0.7rem;
+        width: 50%;
+        margin-left: 1rem;
+    }
+
+    header {
+        background-color: #6C757D;
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: -40px auto;
+        background-color: #6C757D;
+        margin-bottom: 1.5rem;
+    }
+
+    nav a {
+        text-align: center;
+        margin: 0.3rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        color: #212529;
+        background-color: white;
+    
+    }
+
+    nav a:hover {
+        background-color:#212529;
+        color:#6C757D;
+    }
+
+    nav span {
+        background: white;
+        align-self: center;
+        padding: 0.5rem;
+        color: #212529;
+        border-radius: 0.5rem;
+    }
+
+
+
+
+    nav span:hover {
+        background: #212529;
+        align-self: center;
+        padding: 0.5rem;
+        color: white;
+        border-radius: 0.5rem;
+    }
+    nav span {
+        margin-top: 0.5rem;
+    }
+    
+    
+    
+    
+    nav span:hover {
+        background: #212529;
+        align-self: center;
+        padding: 0.5rem;
+        color: white;
+        border-radius: 0.5rem;
+    }
+    .hero-home p {
+        grid-column: 1/4;
+        grid-row: 2/4;
+        font-size: 15px;
+        
+        font-size: 18px;
+        padding: 1rem;
+        margin: 8rem 3rem 5rem 3rem;
+        border-radius: 1rem;
+    }
+    .section-1 {
+        display:inline-block;
+        align-items:center;
+        margin-top: 3rem;
+        border: #212529 solid 2px;
+        padding: 3rem 1rem 1rem 1rem;
+        border-radius: 1rem;
+    
+    }
+    .section-1 img {
+        width: 80%;
+        margin: 1.5rem;
+}
+.section-2 {
+    display:inline-block;
+    align-items:center;
+    margin-top: 3rem;
+    border: #212529 solid 2px;
+    padding: 3rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+
+}
+.section-2 img {
+    width: 80%;
+    margin: 1.5rem;
+}
+
+.section-3 h3 {
+    grid-column: 1/4;
+    padding: 0.5rem;
+    text-align: center;
+    color: gray;
+    background: yellow;
+    border-radius: 0.5rem;
+}
+
+.section-3 img {
+    width: 10%;
+    height: 350px;
+    grid-column: 1/4;
+    z-index: -1;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.platforms {
+    background: #212529;
+    border-radius: 1rem;
+    grid-column: 1/4;
+    align-self: center;
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+}
+
+.platforms img {
+    background: #6C757D;
+    border-radius: 1rem;
+    width: 27%;
+    height: 15%;
+    margin: 1.12rem;
+}
+
+
+.social img {
+    width: 20%;
+}
+
+.logo {
+    width: 20%;
+}
+
+
+
+footer {
+    background-color: #6C757D;
+    padding: 5px 80px;
+    margin-top: 115px;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+footer a {
+    text-decoration: none;
+    color: #212529;
+    font-size: 20px;
+
+}
+
+footer a:hover {
+    background-color:#CED4DA;
+    border-radius: 0.5rem;
+    padding: 1.7rem 0.01rem 0rem 0.01rem;
+    text-decoration:none;
+   
+}
+
+footer a:hover:last-child {
+    background: white;
+    padding: 0rem 0.01rem 0rem 0.01rem;
+}
+
+.social {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.social h5 {
+    float: right;
+    margin-right: 0.5rem;
+    
+}
+
+.social img {
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.subpage-link {
+    display: flex;
+    
+}
+
+.subpage-link h5 {
+    padding: 0.5rem;
+    
+}
+
+
+}
