@@ -11,6 +11,20 @@
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+            <a href="plans.html#Our-proposal">Our Proposal</a>
+            <a href="index.html#Advantages">Advantages</a>
+            <a href="learn_more.html#Our-partners">Our Partners</a>
+            <a href="plans.html#social-link">Contact</a>
+
+        <div class="payment-methods">
+            <a href="https://www.paypal.com/signin">
+                <img src="./images/credit-cards-icons.png" alt="credit cards">
+            </a>
+            <h4>payment methods</h4>
+        </div>
+    </div>
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
@@ -20,6 +34,7 @@
                 <a href="index.html">Home</a>
                 <a href="plans.html">Plans</a>
                 <a href="learn_more.html">Learn More</a>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
             </nav>
         </header>
         <main class="main-plan">
@@ -35,7 +50,7 @@
                 <br>
                 <br></p>
             <p>
-                <strong> Our proposal </strong> <br>
+                <strong id="Our-proposal"> Our proposal </strong> <br>
                 <br>
                 We offer you simple solutions plans with high returns <br>
                 <br>
@@ -92,7 +107,7 @@ A "short" position is generally the sale of a stock you do not own. Investors wh
         <footer>
             
             <div class="social">
-                <a href="https://facebook.com" target="_blank">
+                <a id="social-link" href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
                 <a href="https://twitter.com" target="_blank">
@@ -112,18 +127,16 @@ A "short" position is generally the sale of a stock you do not own. Investors wh
         </footer>
     </div>
     <script>
-        const feedbackElement = document.getElementById("feedback");
-        const formElement = document.forms[0];
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        }
 
-        formElement.addEventListener("submit", function(e) {
-            e.preventDefault();
-        
-        feedbackElement.innerHTML = "Hello" + formElement.user_name.value + "! Thank you for your message. We will get back with you as soon as possible!";
-        
-        feedbackElement.style.display = "block";
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
 
-        document.body.classList.toggle("moveDown"); 
-    });
     </script>
 
 </body>
