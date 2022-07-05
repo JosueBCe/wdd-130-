@@ -162,7 +162,6 @@ main {
 }
 
 .platforms {
-    display: flexbox;
     margin: 1rem;
     padding: 3rem;
     background: #212529;
