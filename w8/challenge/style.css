@@ -16,7 +16,7 @@ body {
 
 
 h4 {
-    color: gray;
+    color: var(--primary-color);;
 }
 
 img {
