@@ -690,6 +690,7 @@ footer a:hover:last-child {
     display: inline;
     align-items: center;
     justify-content: space-between;
+    margin-left: 2rem;
     
 }
 
@@ -710,7 +711,7 @@ footer a:hover:last-child {
 }
 
 .subpage-link h5 {
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
 }
 
 
