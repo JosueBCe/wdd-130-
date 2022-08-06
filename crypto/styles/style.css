@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Lora:ital@1&display=swap');
+
+
+:root {
+    --backgr-color: #1d436a;
+    --primary-color: #5b9ee0;
+    --secondary-color: #7dacda;
+    --extra-color: rgb(181, 198, 217) ;
+    --paragraph-font: Helvetica, sans-serif;
+}
+
 body {
     font-size: 22px;
-    margin:0;
-    
+    margin: -0.4rem;
+    overflow-x: hidden
 }
 
 #logo_link {
@@ -16,7 +27,7 @@ body {
 }
 
 header {
-    background-color: #6C757D;
+    background-color: var(--backgr-color);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -24,11 +35,12 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    margin-top: 1.3rem;
 }
 
 nav a {
     text-align: center;
-    color: #212529;
+    color: var(--primary-color);;
     background-color: white;
     text-decoration: none;
     padding: 20px 40px;
@@ -38,15 +50,15 @@ nav a {
 }
 
 nav a:hover {
-    background-color:#212529;
-    color:#6C757D;
+    background-color:var(--primary-color);;
+    color:var(--backgr-color);
 }
 
 nav span {
     background: white;
     align-self: center;
     padding: 0.5rem;
-    color: #212529;
+    color: var(--primary-color);;
     border-radius: 0.5rem;
 }
 
@@ -54,7 +66,7 @@ nav span {
 
 
 nav span:hover {
-    background: #212529;
+    background: var(--primary-color);;
     align-self: center;
     padding: 0.5rem;
     color: white;
@@ -64,31 +76,31 @@ nav span:hover {
 
 .hero-home {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns:  repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr ) ;
+    font-family: var(--paragraph-font);
     /* margin-top: -100px; */
 }
 
 .hero-home img {
     width: 90%;
-    height: auto;
+    max-height: 70%;
     grid-column: 1/5;
     grid-row: 1/5;
     z-index: -1;
-    width: 100%;
-    z-index: -1;
     border-radius: 1rem;
+    margin: 0rem auto -5rem auto;
     
 }
 
 .hero-home p {
-    grid-column: 3/3;
-    grid-row: 1/4;
+    grid-column: 1/3;
+    grid-row: 2/3;
     font-size: 15px;
-    background: #CED4DA;
+    background: var(--secondary-color);;
     font-size: 18px;
-    padding: 1rem;
-    margin: 4rem 7rem 5rem 7rem;
+    padding: 2rem;
+    margin: 15rem 7rem -8rem 7rem;
     border-radius: 1rem;
 }
 
@@ -100,7 +112,7 @@ main {
     display:flex;
     align-items:center;
     margin-top: 8rem;
-    border: #212529 solid 2px;
+    border: var(--primary-color) solid 2px;
     padding: 3rem 1rem 1rem 1rem;
     border-radius: 1rem;
     
@@ -111,7 +123,7 @@ main {
     margin: 3rem;
     margin-top: -1rem;
     border-radius: 2rem;
-    border: solid #212529 .4rem;
+    border: solid var(--primary-color) .4rem;
 }
 
 .section-1 img:hover {
@@ -121,7 +133,7 @@ main {
 .section-2 {
     display:flex;
     align-items:center;
-    border: #212529 solid 2px;
+    border: var(--primary-color) solid 2px;
     padding: 1rem;
     border-radius: 1rem;
     
@@ -131,12 +143,12 @@ main {
     width: 38%;
     margin: 3rem;
     border-radius: 2rem;
-    border: solid #212529 0.4rem;
+    border: solid var(--primary-color) 0.4rem;
     
 }
 
 .section-2 img:hover {
-    width: 33%;
+    width: 40%;
 }
 
 
@@ -149,9 +161,10 @@ main {
 
 .section-3 h3 {
     text-align: center;
-    color: gray;
-    background: yellow;
+    color: var(--extra-color);;
+    background: rgb(69, 92, 193);
     border-radius: 0.5rem;
+    grid-column: 1/4;
 }
 
 .section-3 img {
@@ -161,25 +174,32 @@ main {
     z-index: -1;
     width: 100%;
     border-radius: 1rem;
+    margin-top: 5rem;
 }
 
 .platforms {
-    margin: 1rem;
-    padding: 3rem;
-    background: #212529;
+
+    background: var(--primary-color);;
     border-radius: 1rem;
+    align-content: center;
+    
+    display: flex;
+    padding: 0rem;
+    z-index: -1;
+    margin: 8rem 0.5rem;
+    
 }
 
 .platforms img {
-    background: #6C757D;
+    background: var(--backgr-color);
     font-size: 18px;
     padding: 0.5rem;
     border-radius: 1rem;
-    margin: 2rem;
-    width: 20%;
-    height: 23%;
+    width: 75%;
+    height:  75%;
+    align-self: center;
+    margin: auto;
 }
-
 
 .social img {
     width: 5%;
@@ -192,8 +212,8 @@ main {
 
 
 footer {
-    background-color: #6C757D;
-    padding: 5px 100px;
+    background-color: var(--backgr-color);
+    padding: 5px 80px;
     margin-top: 115px;   
     display: flex;
     justify-content: space-around;
@@ -203,13 +223,13 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #212529;
+    color: var(--primary-color);
     font-size: 25px;
 
 }
 
 footer a:hover {
-    background-color:#CED4DA;
+    background-color:var(--secondary-color);;
     border-radius: 0.5rem;
     padding: 1.7rem 0.01rem 0rem 0.01rem;
     text-decoration:none;
@@ -248,6 +268,7 @@ footer a:hover:last-child {
 .subpage-link h5 {
     padding: 1.5rem 2rem;
     
+
 }
 
 
@@ -256,14 +277,14 @@ footer a:hover:last-child {
 
 .main-plan {
     margin-top: 5rem;
-    color: #CED4DA;
+    color: var(--secondary-color);;
 }
 
 .main-plan p {
     text-align: center;
     border-radius: 1rem;
     padding: 1.5rem;
-    background: #212529;
+    background: var(--primary-color);;
 }
 
 .plan-1, .plan-2, .plan-3 {
@@ -276,7 +297,7 @@ footer a:hover:last-child {
     width: 38%;
     margin: 3rem;
     border-radius: 2rem;
-    border: solid #212529 0.4rem;
+    border: solid var(--primary-color) 0.4rem;
     
 }
 
@@ -308,7 +329,7 @@ footer a:hover:last-child {
     grid-column: 3/5;
     grid-row: 1/4;
     font-size: 15px;
-    background: #212529;
+    background: var(--primary-color);;
     font-size: 18px;
     padding: 1rem;
     margin: 1rem 5rem 8rem 7rem;
@@ -343,7 +364,7 @@ footer a:hover:last-child {
     grid-column: 1/3;
     grid-row: 1/3;
     font-size: 15px;
-    background: #CED4DA;
+    background: var(--secondary-color);;
     font-size: 18px;
     padding: 1rem;
     margin: 10rem 5rem 8rem 7rem;
@@ -375,7 +396,7 @@ footer a:hover:last-child {
     grid-column: 3/5;
     grid-row: 1/4;
     font-size: 15px;
-    background: #CED4DA;
+    background: var(--secondary-color);;
     font-size: 18px;
     padding: 1rem;
     margin: 10rem 5rem 8rem 7rem;
@@ -383,7 +404,7 @@ footer a:hover:last-child {
 }
 
 .learn-p {
-    background: #212529;
+    background: var(--primary-color);;
     color: white;
     padding: 1rem;
     border-radius: 1rem;
@@ -392,8 +413,8 @@ footer a:hover:last-child {
 
 .learn-p:hover {
     background:white ;
-    color: #212529;
-    border:solid #212529 2px;
+    color: var(--primary-color);;
+    border:solid var(--primary-color) 2px;
 
 }
 
@@ -408,7 +429,7 @@ footer a:hover:last-child {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: rgb(17, 27, 52); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -419,10 +440,15 @@ footer a:hover:last-child {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s;
+    padding: 0.8rem 1rem;
   }
+  .sidenav a:hover {
+    background: var(--secondary-color);
+  }
+  
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
@@ -442,14 +468,14 @@ footer a:hover:last-child {
 .payment-methods img{
     width: 90%;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
     border-radius: 1rem;
 }
 
 .payment-methods h4 {
-    color: #CED4DA;
+    color: var(--secondary-color);
     text-align:center;
-    margin-top: -0.2rem;
+    margin-top: 0rem;
 
 }
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -468,36 +494,86 @@ footer a:hover:last-child {
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES)===================== */
 
 @media screen and (max-width: 1024px) {
+    header {
+        padding: 0.1rem;
+    }
+    nav a {
+        margin: 0.8rem;
+        padding: 1rem 1.2rem;
+        align-self: center;
+        
+    }
+
+    .sidenav {
+        padding-top: 15px;
+        margin-right: 3rem;
+    }
+
+    .section-1 {
+        display: block;
+    }
+    .section-1 img {
+        width: 80%;
+        height: auto;
+        margin: 2rem;
+    }
+
+    .section-1 img:hover {
+        width: 85%;
+    }
+
+    .section-2 {
+        display: block;
+    }
+    .section-2 img {
+        width: 80%;
+        height: auto;
+        margin: 2rem;
+    }
+
+    .section-2 img:hover {
+        width: 85%;
+    }
+
+
+    .section-3 h3 {
+        grid-column: 1/4 ;
+        background: rgb(69, 92, 193);
+    }
+    .platforms {
+        display: flex;
+        padding: 0rem;
+        z-index: -1;
+        margin: 8rem 0.5rem;
+        
+    }
+    .platforms img {
+        width: 70%;
+        height:  70%;
+        align-self: center;
+        margin: 1rem 1.3rem 1rem 1.9rem;
+    }
+
     .container {
         width: var(--container-width-md);
+    }
+
+    .hero-home img {
+        margin-bottom: 7rem;
+    }
+    .hero-home p {
+        grid-column: 1/4;
+        grid-row: 4/4;
+        margin: auto 2rem 1rem 2rem;
+
     }
     section {
         margin-top: 6rem;
     }
-    
-    header {
-        padding: -10rem;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    nav a {
-        padding: 1rem 2rem;
-        margin: 1.5rem auto; 
-    }
-
-    footer {
-        justify-content: space-around;
+    .social img {
+        width:10%;
         padding: 1rem;
     }
-    .social img {
-        width: 50px
-
-    }
-
-
 
 
 }
@@ -518,51 +594,53 @@ footer a:hover:last-child {
    
     #logo_link img {
         border-radius: 0.7rem;
-        width: 50%;
+        width: 80%;
         margin-left: 1rem;
     }
 
     header {
-        background-color: #6C757D;
+        background-color: var(--backgr-color);
         display: grid;
         grid-template-columns: 150px auto;
+        
     }
 
     nav {
         display: grid;
         grid-template-columns: -40px auto;
-        background-color: #6C757D;
+        background-color: var(--backgr-color);
         margin-bottom: 1.5rem;
     }
 
     nav a {
         text-align: center;
-        margin: 0.3rem;
+        margin: 0.3rem 1rem;
         padding-left: 7rem;
         padding-right: 7rem;
-        color: #212529;
+        color: var(--primary-color);;
         background-color: white;
     
     }
 
     nav a:hover {
-        background-color:#212529;
-        color:#6C757D;
+        background-color:var(--primary-color);;
+        color:var(--backgr-color);
     }
 
     nav span {
         background: white;
         align-self: center;
         padding: 0.5rem;
-        color: #212529;
+        color: var(--primary-color);
         border-radius: 0.5rem;
+        margin: 0rem 1rem;
     }
 
 
 
 
     nav span:hover {
-        background: #212529;
+        background: var(--primary-color);
         align-self: center;
         padding: 0.5rem;
         color: white;
@@ -576,7 +654,7 @@ footer a:hover:last-child {
     
     
     nav span:hover {
-        background: #212529;
+        background: var(--primary-color);
         align-self: center;
         padding: 0.5rem;
         color: white;
@@ -596,7 +674,7 @@ footer a:hover:last-child {
         display:inline-block;
         align-items:center;
         margin-top: 3rem;
-        border: #212529 solid 2px;
+        border: var(--primary-color) solid 2px;
         padding: 3rem 1rem 1rem 1rem;
         border-radius: 1rem;
     
@@ -609,7 +687,7 @@ footer a:hover:last-child {
     display:inline-block;
     align-items:center;
     margin-top: 3rem;
-    border: #212529 solid 2px;
+    border: var(--primary-color) solid 2px;
     padding: 3rem 1rem 1rem 1rem;
     border-radius: 1rem;
 
@@ -623,13 +701,13 @@ footer a:hover:last-child {
     grid-column: 1/4;
     padding: 0.5rem;
     text-align: center;
-    color: gray;
-    background: yellow;
+    color: var(--extra-color);;
+    background: rgb(69, 92, 193);
     border-radius: 0.5rem;
 }
 
 .section-3 img {
-    width: 10%;
+    width: 50%;
     height: 350px;
     grid-column: 1/4;
     z-index: -1;
@@ -638,25 +716,26 @@ footer a:hover:last-child {
 }
 
 .platforms {
-    background: #212529;
+    background: var(--primary-color);;
     border-radius: 1rem;
     grid-column: 1/4;
     align-self: center;
-    margin-top: 2rem;
-    margin-bottom: -3rem;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    padding: .5rem;
 }
 
 .platforms img {
-    background: #6C757D;
+    background: var(--backgr-color);
     border-radius: 1rem;
-    width: 27%;
-    height: 15%;
-    margin: 1.12rem;
+    width: 93%;
+    height: auto;
+    margin: 0.5rem;
 }
 
 
 .social img {
-    width: 20%;
+    width: 30%;
 }
 
 .logo {
@@ -666,8 +745,8 @@ footer a:hover:last-child {
 
 
 footer {
-    background-color: #6C757D;
-    padding: 1rem;
+    background-color: var(--backgr-color);
+    padding: 5px 80px;
     margin-top: 115px;   
     display: flex;
     justify-content: space-between;
@@ -677,16 +756,17 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #212529;
+    color: var(--primary-color);;
     font-size: 20px;
 
 }
 
 footer a:hover {
-    background-color:#CED4DA;
+    background-color:var(--secondary-color);;
     border-radius: 0.5rem;
     padding: 1.7rem 0.01rem 0rem 0.01rem;
     text-decoration:none;
+
    
 }
 
@@ -699,7 +779,7 @@ footer a:hover:last-child {
     display: inline-block;
     align-items: center;
     justify-content: space-between;
-   
+    margin-left: 2rem;
     
 }
 
@@ -717,12 +797,11 @@ footer a:hover:last-child {
 
 .subpage-link {
     display: flex;
-    
+    padding: 0.7rem;
 }
 
 .subpage-link h5 {
-    padding: 0.5rem;
-    
+    margin-left: 0.5rem;
 }
 
 

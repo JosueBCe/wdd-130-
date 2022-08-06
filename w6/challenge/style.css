@@ -24,7 +24,7 @@ h1 {
 }
 
 .hd {
-    background: gray;
+    background: var(--primary-color);;
     grid-column: 3/5;
     grid-row: 1/4;
     
