@@ -5,7 +5,7 @@
     --backgr-color: #1d436a;
     --primary-color: #5b9ee0;
     --secondary-color: #7dacda;
-    --extra-color: rgb(181, 198, 217) ;
+    --extra-color: rgb(181, 198, 217);
     --paragraph-font: Helvetica, sans-serif;
 }
 
@@ -40,25 +40,28 @@ nav {
 
 nav a {
     text-align: center;
-    color: var(--primary-color);;
+    color: var(--primary-color);
+    ;
     background-color: white;
     text-decoration: none;
     padding: 20px 40px;
     margin: 2rem;
     border-radius: 2rem;
-    
+
 }
 
 nav a:hover {
-    background-color:var(--primary-color);;
-    color:var(--backgr-color);
+    background-color: var(--primary-color);
+    ;
+    color: var(--backgr-color);
 }
 
 nav span {
     background: white;
     align-self: center;
     padding: 0.5rem;
-    color: var(--primary-color);;
+    color: var(--primary-color);
+    ;
     border-radius: 0.5rem;
 }
 
@@ -66,7 +69,8 @@ nav span {
 
 
 nav span:hover {
-    background: var(--primary-color);;
+    background: var(--primary-color);
+    ;
     align-self: center;
     padding: 0.5rem;
     color: white;
@@ -76,8 +80,8 @@ nav span:hover {
 
 .hero-home {
     display: grid;
-    grid-template-columns:  repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr ) ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     font-family: var(--paragraph-font);
     /* margin-top: -100px; */
 }
@@ -90,14 +94,15 @@ nav span:hover {
     z-index: -1;
     border-radius: 1rem;
     margin: 0rem auto -5rem auto;
-    
+
 }
 
 .hero-home p {
     grid-column: 1/3;
     grid-row: 2/3;
     font-size: 15px;
-    background: var(--secondary-color);;
+    background: var(--secondary-color);
+    ;
     font-size: 18px;
     padding: 2rem;
     margin: 15rem 7rem -8rem 7rem;
@@ -107,15 +112,15 @@ nav span:hover {
 main {
     margin: -2rem 2rem 1rem 2rem;
 }
-    
+
 .section-1 {
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     margin-top: 8rem;
     border: var(--primary-color) solid 2px;
     padding: 3rem 1rem 1rem 1rem;
     border-radius: 1rem;
-    
+
 }
 
 .section-1 img {
@@ -131,12 +136,12 @@ main {
 }
 
 .section-2 {
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     border: var(--primary-color) solid 2px;
     padding: 1rem;
     border-radius: 1rem;
-    
+
 }
 
 .section-2 img {
@@ -144,7 +149,7 @@ main {
     margin: 3rem;
     border-radius: 2rem;
     border: solid var(--primary-color) 0.4rem;
-    
+
 }
 
 .section-2 img:hover {
@@ -161,7 +166,8 @@ main {
 
 .section-3 h3 {
     text-align: center;
-    color: var(--extra-color);;
+    color: var(--extra-color);
+    ;
     background: rgb(69, 92, 193);
     border-radius: 0.5rem;
     grid-column: 1/4;
@@ -179,15 +185,16 @@ main {
 
 .platforms {
 
-    background: var(--primary-color);;
+    background: var(--primary-color);
+    ;
     border-radius: 1rem;
     align-content: center;
-    
+
     display: flex;
     padding: 0rem;
     z-index: -1;
     margin: 8rem 0.5rem;
-    
+
 }
 
 .platforms img {
@@ -196,7 +203,7 @@ main {
     padding: 0.5rem;
     border-radius: 1rem;
     width: 75%;
-    height:  75%;
+    height: 75%;
     align-self: center;
     margin: auto;
 }
@@ -214,11 +221,11 @@ main {
 footer {
     background-color: var(--backgr-color);
     padding: 5px 80px;
-    margin-top: 115px;   
+    margin-top: 115px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
+
 }
 
 footer a {
@@ -229,11 +236,12 @@ footer a {
 }
 
 footer a:hover {
-    background-color:var(--secondary-color);;
+    background-color: var(--secondary-color);
+    ;
     border-radius: 0.5rem;
     padding: 1.7rem 0.01rem 0rem 0.01rem;
-    text-decoration:none;
-   
+    text-decoration: none;
+
 }
 
 footer a:hover:last-child {
@@ -245,13 +253,13 @@ footer a:hover:last-child {
     display: inline;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .social h5 {
     float: right;
     margin-right: 10rem;
-    
+
 }
 
 .social img {
@@ -261,12 +269,12 @@ footer a:hover:last-child {
 
 .subpage-link {
     display: flex;
-    
+
 }
 
 .subpage-link h5 {
     padding: 0.5rem;
-    
+
 
 }
 
@@ -274,31 +282,39 @@ footer a:hover:last-child {
 
 .main-plan {
     margin-top: 5rem;
-    color: var(--secondary-color);;
+    color: var(--secondary-color);
+    ;
 }
 
 .main-plan p {
     text-align: center;
     border-radius: 1rem;
     padding: 1.5rem;
-    background: var(--primary-color);;
+    background: var(--primary-color);
+    ;
 }
 
-.plan-1, .plan-2, .plan-3 {
-    display:flex;
-    align-items:center;
-    
+.plan-1,
+.plan-2,
+.plan-3 {
+    display: flex;
+    align-items: center;
+
 }
 
-.plan-1 img, .plan-2 img, .plan-3  img {
+.plan-1 img,
+.plan-2 img,
+.plan-3 img {
     width: 38%;
     margin: 3rem;
     border-radius: 2rem;
     border: solid var(--primary-color) 0.4rem;
-    
+
 }
 
-.plan-1 img:hover, .plan-2 img:hover, .plan-3  img:hover {
+.plan-1 img:hover,
+.plan-2 img:hover,
+.plan-3 img:hover {
     width: 33%;
 }
 
@@ -319,14 +335,15 @@ footer a:hover:last-child {
     width: 100%;
     z-index: -1;
     border-radius: 2rem;
-    
+
 }
 
 .info-plan p {
     grid-column: 3/5;
     grid-row: 1/4;
     font-size: 15px;
-    background: var(--primary-color);;
+    background: var(--primary-color);
+    ;
     font-size: 18px;
     padding: 1rem;
     margin: 1rem 5rem 8rem 7rem;
@@ -354,14 +371,15 @@ footer a:hover:last-child {
     width: 100%;
     z-index: -1;
     border-radius: 2rem;
-    
+
 }
 
 .learn-left p {
     grid-column: 1/3;
     grid-row: 1/3;
     font-size: 15px;
-    background: var(--secondary-color);;
+    background: var(--secondary-color);
+    ;
     font-size: 18px;
     padding: 1rem;
     margin: 10rem 5rem 8rem 7rem;
@@ -386,14 +404,15 @@ footer a:hover:last-child {
     width: 100%;
     z-index: -1;
     border-radius: 2rem;
-    
+
 }
 
 .learn-right p {
     grid-column: 3/5;
     grid-row: 1/4;
     font-size: 15px;
-    background: var(--secondary-color);;
+    background: var(--secondary-color);
+    ;
     font-size: 18px;
     padding: 1rem;
     margin: 10rem 5rem 8rem 7rem;
@@ -401,17 +420,19 @@ footer a:hover:last-child {
 }
 
 .learn-p {
-    background: var(--primary-color);;
+    background: var(--primary-color);
+    ;
     color: white;
     padding: 1rem;
     border-radius: 1rem;
-   
+
 }
 
 .learn-p:hover {
-    background:white ;
-    color: var(--primary-color);;
-    border:solid var(--primary-color) 2px;
+    background: white;
+    color: var(--primary-color);
+    ;
+    border: solid var(--primary-color) 2px;
 
 }
 
@@ -420,20 +441,29 @@ footer a:hover:last-child {
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
-    background-color: rgb(17, 27, 52); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
+    background-color: rgb(17, 27, 52);
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -441,28 +471,29 @@ footer a:hover:last-child {
     display: block;
     transition: 0.3s;
     padding: 0.8rem 1rem;
-  }
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     background: var(--secondary-color);
-  }
-  
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-    
-  }
-  
-.payment-methods img{
+
+}
+
+.payment-methods img {
     width: 90%;
     align-items: center;
     margin-top: 0.5rem;
@@ -471,17 +502,23 @@ footer a:hover:last-child {
 
 .payment-methods h4 {
     color: var(--secondary-color);
-    text-align:center;
+    text-align: center;
     margin-top: 0rem;
 
 }
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 
 }
 
@@ -494,11 +531,12 @@ footer a:hover:last-child {
     header {
         padding: 0.1rem;
     }
+
     nav a {
         margin: 0.8rem;
         padding: 1rem 1.2rem;
         align-self: center;
-        
+
     }
 
     .sidenav {
@@ -509,6 +547,7 @@ footer a:hover:last-child {
     .section-1 {
         display: block;
     }
+
     .section-1 img {
         width: 80%;
         height: auto;
@@ -522,6 +561,7 @@ footer a:hover:last-child {
     .section-2 {
         display: block;
     }
+
     .section-2 img {
         width: 80%;
         height: auto;
@@ -534,19 +574,21 @@ footer a:hover:last-child {
 
 
     .section-3 h3 {
-        grid-column: 1/4 ;
+        grid-column: 1/4;
         background: rgb(69, 92, 193);
     }
+
     .platforms {
         display: flex;
         padding: 0rem;
         z-index: -1;
         margin: 8rem 0.5rem;
-        
+
     }
+
     .platforms img {
         width: 70%;
-        height:  70%;
+        height: 70%;
         align-self: center;
         margin: 1rem 1.3rem 1rem 1.9rem;
     }
@@ -558,17 +600,20 @@ footer a:hover:last-child {
     .hero-home img {
         margin-bottom: 7rem;
     }
+
     .hero-home p {
         grid-column: 1/4;
         grid-row: 4/4;
         margin: auto 2rem 1rem 2rem;
 
     }
+
     section {
         margin-top: 6rem;
     }
+
     .social img {
-        width:10%;
+        width: 10%;
         padding: 1rem;
     }
 
@@ -579,14 +624,14 @@ footer a:hover:last-child {
 /* ======================== SMALL QUERIES (SMALL DEVICES)===================== */
 
 @media screen and (max-width: 600px) {
-        
-   /*  #logo_link {
+
+    /*  #logo_link {
         padding-top: 5px;
         justify-self: center;
         align-self: center;
         margin-left: 15px;
     } */
-   
+
     #logo_link img {
         border-radius: 0.7rem;
         width: 80%;
@@ -597,7 +642,7 @@ footer a:hover:last-child {
         background-color: var(--backgr-color);
         display: grid;
         grid-template-columns: 150px auto;
-        
+
     }
 
     nav {
@@ -612,14 +657,16 @@ footer a:hover:last-child {
         margin: 0.3rem 1rem;
         padding-left: 7rem;
         padding-right: 7rem;
-        color: var(--primary-color);;
+        color: var(--primary-color);
+        ;
         background-color: white;
-    
+
     }
 
     nav a:hover {
-        background-color:var(--primary-color);;
-        color:var(--backgr-color);
+        background-color: var(--primary-color);
+        ;
+        color: var(--backgr-color);
     }
 
     nav span {
@@ -641,13 +688,14 @@ footer a:hover:last-child {
         color: white;
         border-radius: 0.5rem;
     }
+
     nav span {
         margin-top: 0.5rem;
     }
-    
-    
-    
-    
+
+
+
+
     nav span:hover {
         background: var(--primary-color);
         align-self: center;
@@ -655,148 +703,157 @@ footer a:hover:last-child {
         color: white;
         border-radius: 0.5rem;
     }
+
     .hero-home p {
         grid-column: 1/4;
         grid-row: 2/4;
         font-size: 15px;
-        
+
         font-size: 18px;
         padding: 1rem;
         margin: 8rem 3rem 5rem 3rem;
         border-radius: 1rem;
     }
+
     .section-1 {
-        display:inline-block;
-        align-items:center;
+        display: inline-block;
+        align-items: center;
         margin-top: 3rem;
         border: var(--primary-color) solid 2px;
         padding: 3rem 1rem 1rem 1rem;
         border-radius: 1rem;
-    
+
     }
+
     .section-1 img {
         width: 80%;
         margin: 1.5rem;
-}
-.section-2 {
-    display:inline-block;
-    align-items:center;
-    margin-top: 3rem;
-    border: var(--primary-color) solid 2px;
-    padding: 3rem 1rem 1rem 1rem;
-    border-radius: 1rem;
+    }
 
-}
-.section-2 img {
-    width: 80%;
-    margin: 1.5rem;
-}
+    .section-2 {
+        display: inline-block;
+        align-items: center;
+        margin-top: 3rem;
+        border: var(--primary-color) solid 2px;
+        padding: 3rem 1rem 1rem 1rem;
+        border-radius: 1rem;
 
-.section-3 h3 {
-    grid-column: 1/4;
-    padding: 0.5rem;
-    text-align: center;
-    color: var(--extra-color);;
-    background: rgb(69, 92, 193);
-    border-radius: 0.5rem;
-}
+    }
 
-.section-3 img {
-    width: 50%;
-    height: 350px;
-    grid-column: 1/4;
-    z-index: -1;
-    width: 100%;
-    border-radius: 1rem;
-}
+    .section-2 img {
+        width: 80%;
+        margin: 1.5rem;
+    }
 
-.platforms {
-    background: var(--primary-color);;
-    border-radius: 1rem;
-    grid-column: 1/4;
-    align-self: center;
-    margin-top: 1rem;
-    margin-bottom: -1rem;
-    padding: .5rem;
-}
+    .section-3 h3 {
+        grid-column: 1/4;
+        padding: 0.5rem;
+        text-align: center;
+        color: var(--extra-color);
+        ;
+        background: rgb(69, 92, 193);
+        border-radius: 0.5rem;
+    }
 
-.platforms img {
-    background: var(--backgr-color);
-    border-radius: 1rem;
-    width: 93%;
-    height: auto;
-    margin: 0.5rem;
-}
+    .section-3 img {
+        width: 50%;
+        height: 350px;
+        grid-column: 1/4;
+        z-index: -1;
+        width: 100%;
+        border-radius: 1rem;
+    }
 
+    .platforms {
+        background: var(--primary-color);
+        ;
+        border-radius: 1rem;
+        grid-column: 1/4;
+        align-self: center;
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+        padding: .5rem;
+    }
 
-.social img {
-    width: 30%;
-}
-
-.logo {
-    width: 20%;
-}
+    .platforms img {
+        background: var(--backgr-color);
+        border-radius: 1rem;
+        width: 93%;
+        height: auto;
+        margin: 0.5rem;
+    }
 
 
+    .social img {
+        width: 30%;
+    }
 
-footer {
-    background-color: var(--backgr-color);
-    padding: 5px 80px;
-    margin-top: 115px;   
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  
-}
+    .logo {
+        width: 20%;
+    }
 
-footer a {
-    text-decoration: none;
-    color: var(--primary-color);;
-    font-size: 20px;
 
-}
 
-footer a:hover {
-    background-color:var(--secondary-color);;
-    border-radius: 0.5rem;
-    padding: 1.7rem 0.01rem 0rem 0.01rem;
-    text-decoration:none;
+    footer {
+        background-color: var(--backgr-color);
+        padding: 5px 80px;
+        margin-top: 115px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
-   
-}
+    }
 
-footer a:hover:last-child {
-    background: white;
-    padding: 0rem 0.01rem 0rem 0.01rem;
-}
+    footer a {
+        text-decoration: none;
+        color: var(--primary-color);
+        ;
+        font-size: 20px;
 
-.social {
-    display: inline;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 2rem;
-    
-}
+    }
 
-.social h5 {
-    float: right;
-    margin-right: 0.5rem;
-    
-}
+    footer a:hover {
+        background-color: var(--secondary-color);
+        ;
+        border-radius: 0.5rem;
+        padding: 1.7rem 0.01rem 0rem 0.01rem;
+        text-decoration: none;
 
-.social img {
-    margin-top: 1rem;
-    padding: 0.5rem;
-}
 
-.subpage-link {
-    display: flex;
-    padding: 0.7rem;
-}
+    }
 
-.subpage-link h5 {
-    margin-left: 0.5rem;
-}
+    footer a:hover:last-child {
+        background: white;
+        padding: 0rem 0.01rem 0rem 0.01rem;
+    }
+
+    .social {
+        display: inline;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2rem;
+
+    }
+
+    .social h5 {
+        float: right;
+        margin-right: 0.5rem;
+
+    }
+
+    .social img {
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+
+    .subpage-link {
+        display: flex;
+        padding: 0.7rem;
+    }
+
+    .subpage-link h5 {
+        margin-left: 0.5rem;
+    }
 
 
 }
