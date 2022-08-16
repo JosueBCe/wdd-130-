@@ -294,7 +294,7 @@ footer a:hover:last-child {
     text-align: center;
     border-radius: 1rem;
     padding: 1.5rem;
-    background: var(--primary-color);
+    background: var(--backgr-color);
     ;
 }
 
@@ -316,11 +316,6 @@ footer a:hover:last-child {
 
 }
 
-.plan-1 img:hover,
-.plan-2 img:hover,
-.plan-3 img:hover {
-    width: 33%;
-}
 
 .info-plan {
     display: grid;
@@ -346,7 +341,7 @@ footer a:hover:last-child {
     grid-column: 3/5;
     grid-row: 1/4;
     font-size: 15px;
-    background: var(--primary-color);
+    background: var(--backgr-color);
     ;
     font-size: 18px;
     padding: 1rem;
@@ -511,6 +506,56 @@ footer a:hover:last-child {
 
 }
 
+@media screen and (max-width: 600px) {
+
+    .info-plan {
+        display: block;
+    }
+
+    .info-plan img {
+        width: 100%;
+        margin: 2rem auto;
+    }
+    
+
+    .info-plan p {
+        margin: 0rem;
+    }
+    
+    
+    .plan-1 {
+        display: inline-block;
+        
+    }
+
+    .plan-1 img {
+        width: 100%;
+        margin: 5rem 0rem 0rem 0rem;
+    }
+
+    .plan-2 {
+        display: inline;
+    }
+
+    .plan-2 img {
+        width: 100%;
+        margin: 5rem 0rem 0rem 0rem;
+    }
+
+    .plan-3 {
+        display: inline;
+    }
+
+    .plan-3 img {
+        width: 100%;
+        margin: 5rem 0rem 0rem 0rem;
+    }
+
+
+
+}
+
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 
 
@@ -649,7 +694,7 @@ footer a:hover:last-child {
 
     #logo_link img {
         border-radius: 0.7rem;
-        width: 80%;
+        width: 70%;
         margin-left: 1rem;
     }
 
@@ -669,7 +714,7 @@ footer a:hover:last-child {
 
     nav a {
         text-align: center;
-        margin: 0.3rem -1rem;
+        margin: 0.3rem -.5rem;
         padding-left: 1rem;
         padding-right: 0rem;
         color: var(--primary-color);
@@ -809,7 +854,7 @@ footer a:hover:last-child {
 
     footer {
         background-color: var(--backgr-color);
-        padding: 5px 50px;
+        padding: 5px 20px;
         margin-top: 115px;
         display: flex;
         justify-content: space-around;
