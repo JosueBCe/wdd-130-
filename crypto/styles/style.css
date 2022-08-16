@@ -327,7 +327,7 @@ footer a:hover:last-child {
 
 .info-plan img {
     width: 100%;
-    height: 450px;
+    height: 350px;
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
@@ -354,52 +354,43 @@ footer a:hover:last-child {
 /* ======================================================= LEARN MORE ============================================= */
 
 .learn-left {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin: 5rem 5rem 1.7rem 1.7rem;
-    /* margin-top: -100px; */
+    display: inline;
+}
+
+.learn-left video {
+    width: 100%;
+    height: 350px;
+    width: 100%;
+    z-index: -1;
+    border-radius: 2rem;
+    margin-top: 5rem;
 }
 
 .learn-left img {
     width: 100%;
-    height: 450px;
-    grid-column: 2/5;
-    grid-row: 1/4;
-    z-index: -1;
-    width: 100%;
-    z-index: -1;
-    border-radius: 2rem;
-
 }
 
 .learn-left p {
-    grid-column: 1/3;
-    grid-row: 1/3;
     font-size: 15px;
     background: var(--secondary-color);
-    ;
-    font-size: 18px;
+    font-size: 20px;
     padding: 1rem;
-    margin: 10rem 5rem 8rem 7rem;
+    margin: 2rem;
     border-radius: 1rem;
+    align-self: center;
 }
 
 
 .learn-right {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin: 1.7rem;
-    /* margin-top: -100px; */
+    display: block;
 }
 
 .learn-right img {
     width: 100%;
     height: 450px;
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
+
+
+
     width: 100%;
     z-index: -1;
     border-radius: 2rem;
@@ -436,7 +427,20 @@ footer a:hover:last-child {
 }
 
 
+@media screen and (max-width: 600px) {
 
+    .learn-left video {
+        margin-top: 2rem;
+    }
+
+    .learn-right p {
+        margin: 0rem 1rem 5rem 1rem;
+    }
+
+    .learn-left p {
+        margin: 0rem 1rem 5rem 1rem;
+    }
+}
 
 /* The side navigation menu */
 .sidenav {
@@ -510,22 +514,22 @@ footer a:hover:last-child {
 
     .info-plan {
         display: block;
+
     }
 
     .info-plan img {
         width: 100%;
         margin: 2rem auto;
     }
-    
 
     .info-plan p {
         margin: 0rem;
     }
-    
-    
+
+
     .plan-1 {
         display: inline-block;
-        
+
     }
 
     .plan-1 img {
@@ -551,7 +555,64 @@ footer a:hover:last-child {
         margin: 5rem 0rem 0rem 0rem;
     }
 
+    .social img {
+        margin-top: 1rem;
+        padding: 2.5rem;
+        width: 15%;
+    }
 
+}
+
+@media screen and (max-width: 1024px) {
+    .plan-1 {
+        display: inline-block;
+
+    }
+
+    .plan-1 img {
+        width: 80%;
+        padding: 1rem;
+        margin-bottom: -.7rem;
+    }
+
+    .plan-2 {
+        display: inline;
+    }
+
+    .plan-2 img {
+        width: 80%;
+        padding: 1rem;
+        margin-bottom: -.7rem;
+    }
+
+    .plan-3 {
+        display: inline;
+    }
+
+    .plan-3 img {
+        width: 80%;
+        padding: 1rem;
+        margin-bottom: -.7rem;
+    }
+
+    .info-plan {
+        display: block;
+    }
+
+    .info-plan img {
+        width: 100%;
+        margin: 1rem auto;
+        padding: -5rem;
+    }
+
+
+    .info-plan p {
+        margin: 0rem;
+    }
+
+    .social img {
+        margin: 0.7rem;
+    }
 
 }
 
@@ -666,10 +727,11 @@ footer a:hover:last-child {
     section {
         margin-top: 6rem;
     }
+
     .social {
-        margin:auto;
-        }
-  
+        margin: auto;
+    }
+
     .social img {
         width: 10%;
         padding: 1rem;
@@ -844,7 +906,7 @@ footer a:hover:last-child {
     }
 
 
-    
+
 
     .logo {
         width: 20%;
@@ -886,7 +948,7 @@ footer a:hover:last-child {
     }
 
     .social {
-        display:block;
+        display: block;
         align-items: center;
         justify-content: space-between;
 
@@ -900,7 +962,7 @@ footer a:hover:last-child {
 
     .social img {
         margin-top: 1rem;
-        padding: 2rem;
+        padding: 2.5rem;
         width: 15%;
     }
 
@@ -912,3 +974,6 @@ footer a:hover:last-child {
 
 
 }
+
+
+@media screen and (max-width: 600px) {}
