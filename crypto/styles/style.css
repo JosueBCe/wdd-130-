@@ -164,6 +164,7 @@ main {
     margin-top: 5rem;
 }
 
+
 .section-3 h3 {
     text-align: center;
     color: var(--extra-color);
@@ -612,10 +613,18 @@ footer a:hover:last-child {
 
     }
 
+    footer {
+        text-align: center;
+        padding: 1rem;
+    }
+
     section {
         margin-top: 6rem;
     }
-
+    .social {
+        margin:auto;
+        }
+  
     .social img {
         width: 10%;
         padding: 1rem;
@@ -660,9 +669,9 @@ footer a:hover:last-child {
 
     nav a {
         text-align: center;
-        margin: 0.3rem 1rem;
-        padding-left: 7rem;
-        padding-right: 7rem;
+        margin: 0.3rem -1rem;
+        padding-left: 1rem;
+        padding-right: 0rem;
         color: var(--primary-color);
         ;
         background-color: white;
@@ -790,9 +799,7 @@ footer a:hover:last-child {
     }
 
 
-    .social img {
-        width: 30%;
-    }
+    
 
     .logo {
         width: 20%;
@@ -802,7 +809,7 @@ footer a:hover:last-child {
 
     footer {
         background-color: var(--backgr-color);
-        padding: 5px 80px;
+        padding: 5px 50px;
         margin-top: 115px;
         display: flex;
         justify-content: space-around;
@@ -834,10 +841,9 @@ footer a:hover:last-child {
     }
 
     .social {
-        display: inline;
+        display:block;
         align-items: center;
         justify-content: space-between;
-        margin-left: 2rem;
 
     }
 
@@ -849,16 +855,14 @@ footer a:hover:last-child {
 
     .social img {
         margin-top: 1rem;
-        padding: 0.5rem;
+        padding: 2rem;
+        width: 15%;
     }
+
 
     .subpage-link {
-        display: flex;
+        display: inline;
         padding: 0.7rem;
-    }
-
-    .subpage-link h5 {
-        margin-left: 0.5rem;
     }
 
 
